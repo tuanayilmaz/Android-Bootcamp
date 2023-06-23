@@ -30,7 +30,7 @@ fun main() {
             exitProcess(0)
         }
         if (userTurn==0) {
-            println("Computer won! The number was $randomNumber.")
+            println("You are out of guesses! The number was $randomNumber.")
             exitProcess(0)
         }
     }
